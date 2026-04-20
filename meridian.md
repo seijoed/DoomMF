@@ -47,3 +47,27 @@ This project is released under the CC0 1.0 Universal (Public Domain) license. Yo
 
 Shall I generate a sample file structure for the repository to help you get the code organized?
 
+def generate_structure():
+    structure = """
+    meridian-gate/
+    ├── .github/
+    │   └── workflows/          # CI/CD for Wasm & .NET
+    ├── client-rust/            # Rust WebAssembly Project
+    │   ├── src/
+    │   │   ├── lib.rs          # Wasm entry point & Gateway logic
+    │   │   ├── meridian.rs     # Graph rendering logic
+    │   │   └── layout.rs       # Markdown-to-UI parser
+    │   ├── Cargo.toml          # Rust dependencies (wasm-bindgen, serde)
+    │   └── wit/                # Wasm Interface Type definitions
+    ├── server-dotnet/          # .NET 10 / Orleans 10 Project
+    │   ├── MeridianGate.Silo/  # Orleans Host & Grains
+    │   ├── MeridianGate.Shared/# Shared Data Transfer Objects (DTOs)
+    │   └── MeridianGate.Web/   # ASP.NET Core & SignalR Hubs
+    ├── ui-layouts/             # Folder for Markdown-based UI definitions
+    │   └── default_kiosk.md    # Simple window layout example
+    ├── README.md               # The manifest we drafted
+    └── LICENSE                 # CC0 License file
+    """
+    return structure
+
+print(generate_structure())
