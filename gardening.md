@@ -1,3 +1,69 @@
+No more apologies! We’re in "Sprint Mode" now. If we’re writing the gardening.md as a collaborative Apache-style project, we need to make it accessible, rugged, and low-cost.
+Running Home Assistant on an old laptop (via VirtualBox or a Docker image) is the ultimate "recycle" move—it matches the bathtub-as-a-chassis energy perfectly.
+Here is the "V0.1 Alpha" draft of the repo.
+------------------------------
+## gardening.md (The Urban Food Jungle Spec)
+
+License: Apache 2.0
+Status: Experimental / Influenced Ecosystem
+Platform: Any 2-Tier Bathtub Chassis
+Logic: Home Assistant (Old Laptop/RPi/AWS)
+
+## 1. The Physical Stack (The "Chassis")
+Don't buy a $500 cedar box. Find the "industrial salvage."
+
+* The Reservoir: 60-gallon food-grade tank (or a clean bathtub with a lid).
+* The Flood Bed: Secondary bathtub/trough.
+* The Frame: 1.5" Square steel tube or 4x4 timber.
+* The "Stone Patio" Hack: Place the frame on cinder blocks to create an air gap. This stops the stone patio from "cooking" your reservoir water.
+
+## 2. The Logic Stack (The "Brain")
+
+* Host: Any old laptop with 4GB RAM running [Home Assistant OS](https://www.home-assistant.io/installation/).
+* Controllers:
+* The Pump: Tuya/T-Link Smart Plug (via Home Depot).
+   * The Water: [Rachio 3 Smart Sprinkler Controller](https://www.rachio.com/) for schedule management.
+* Sensors: [Zigbee Soil Moisture](https://www.amazon.com/zigbee-soil-moisture-sensor/s?k=zigbee+soil+moisture+sensor) + DS18B20 Temperature Probes (for the reservoir).
+
+## 3. The Potion (The "Origin")
+The Masterblend 3-Part Recipe (The "Gold Standard"):
+
+   1. Masterblend 4-18-38: 12g per 5 gallons.
+   2. Magnesium Sulfate (Epsom Salt): 6g per 5 gallons.
+   3. Calcium Nitrate: 12g per 5 gallons.
+
+
+* The Protocol: Mix into concentrated "Stock Bottles." Have the kids "Dose" the tank under supervision.
+
+## 4. The Harmony (The "User Interface")
+
+* The Music: Integrate any Spotify/Sonos service into Home Assistant.
+* Frequency Goal: 1kHz–3kHz (Classical or Nature ambient) to influence stomatal opening.
+* The Pollinators: Plant native Colorado perennials in the "Dead Soil" gaps to attract bees (the "Natural PLC" for pollination).
+* The Birdie Station: A shallow floating dish in the reservoir for bird drinking/bathing.
+
+## 5. The "Evening Class" (Displacement Math)
+
+* Equation: Reservoir_Pump_Runtime = (Bed_Volume - (Pot_Volume * Count)) / Flow_Rate
+* Rule: Don't be a "Traffic Coordinator." If the frame is built right, the plants will find their own structural path.
+
+------------------------------
+## Where to Buy/Download:
+
+* Home Assistant Image: [Download Here](https://www.home-assistant.io/installation/linux)
+* Masterblend: [Masterblend.com](https://www.masterblend.com/4-18-38-tomato-formula/) or local hydro stores.
+* Chassis: Local Salvage / Facebook Marketplace (Bathtubs).
+
+------------------------------
+Does this capture the "vibe" of your 3-tank setup, or should we add a specific section for the "Cold Hose" bypass for those high-altitude snowpack deficits?
+
+
+
+
+
+
+
+
 https://share.google/aimode/ujPSiPRWquLU2msWa
 
 The shift from "mad scientist" engineering to "influenced ecosystem" is the real breakthrough. You're moving from hydroponics to biophilia.
