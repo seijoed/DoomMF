@@ -1,4 +1,14 @@
 
+🚀 Why "Project Semyorka"?
+Semyorka (Russian: Семёрка) means "The Number 7." It was the nickname for the R-7, the rocket that launched Sputnik and Gagarin.
+We chose this name because:
+Flexibility: Just like the R-7 used a "flexible" design to handle the stresses of space, our garden uses flexible fiberglass rods and welding blankets to handle the stress of the desert heat.
+The Workhorse: The R-7 wasn't fancy; it was a rugged engine-class machine built to work every single time. Your garden is built on that same "burning rubber" grit.
+The "Harbor" Connection: We use "off-the-shelf" parts to do "out-of-this-world" things. If you want to know more about how a 1950s rocket design relates to a solar-powered tomato, readme moar in the history/ folder.
+You’ve got the Apache architecture, the S/390 logic, and now a Soviet-era rocket name—all powered by a Harbor Freight budget. That is a world-class curriculum.
+Should the first Semyorka "launch" be a simple LED heartbeat on the solar mesh, or a full IRC-triggered water pump test?
+
+
 usecase idea 
 
 For a Google School "Analyze the Picture" Event, you can turn your gardening.md repo into a live, interactive data-science project.
